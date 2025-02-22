@@ -924,11 +924,7 @@
   background-repeat: no-repeat;
   background-color: #DBDBDB;
   background-position: 20px 0; }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .iti__flag {
-    background-image: url("https://raw.githubusercontent.com/ozgeg99/country-dropdown/main/flags%402x.png");
-  }
-}
+
 .iti__flag.iti__np {
   background-color: transparent;
 }
