@@ -916,20 +916,23 @@
   .iti-0__country-listbox {
     z-index: 2147483647 !important;   }
 
+/* Fix flag display */
 .iti__flag {
+  width: 20px;
   height: 15px;
+  background-size: 5652px 15px;
   box-shadow: 0px 0px 1px 0px #888;
   background-image: url("https://raw.githubusercontent.com/ozgeg99/country-dropdown/main/flags.png");
   background-repeat: no-repeat;
   background-color: #DBDBDB;
-  background-position: 20px 0; }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  background-position: 0 0;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {
     background-image: url("https://raw.githubusercontent.com/ozgeg99/country-dropdown/main/flags%402x.png");
-    background-size: 5652px 15px; /* Ensure correct scaling */
+    background-size: 5652px 15px;
   }
 }
-
-
 .iti__flag.iti__np {
-  background-color: transparent; }
+  background-color: transparent;
+}
