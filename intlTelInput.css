@@ -918,7 +918,7 @@
 
 /* Fix flag display */
 .iti__flag {
-  width: 20px;
+  width: 22px;
   height: 15px;
   background-size: 5652px 15px;
   box-shadow: 0px 0px 1px 0px #888;
@@ -930,7 +930,7 @@
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {
     background-image: url("https://raw.githubusercontent.com/ozgeg99/country-dropdown/main/flags%402x.png");
-    background-size: 5652px 15px;
+    background-size: 7808px 24px;
   }
 }
 .iti__flag.iti__np {
